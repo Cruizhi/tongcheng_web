@@ -8,6 +8,7 @@ import java.util.List;
 
 @Component
 public interface UserRepository extends JpaRepository<User,Integer> {
+
 	User findUserById(Integer Id);
 
 	User findUserByPhone(String phone);

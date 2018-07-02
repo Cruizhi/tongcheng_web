@@ -11,9 +11,9 @@ import javax.persistence.Id;
 @DynamicUpdate
 public class Recruit {
 
-	private String recruittype;
 	@Id
 	private String userid;
+	private String recruittype;
 	private String token;
 	private String type;
 	private String name;
